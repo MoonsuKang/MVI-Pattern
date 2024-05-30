@@ -1,7 +1,7 @@
 # MVI Pattern
 **Model(Repository)** : 데이터를 로드하고, 비즈니스 로직을 처리  
 **View** : UI 관리, ViewModel 상태를 관찰해서 UI 업데이트  
-ViewModel** : Intent 처리, 비즈니스 로직 실행하고, 결과를 State로 변환해서 View로 전달  
+**ViewModel** : Intent 처리, 비즈니스 로직 실행하고, 결과를 State로 변환해서 View로 전달  
 **Intent** : 사용자의 액션을 나타내고, View에서 ViewModel로 전달  
 **State** : 상태를 나타내고, ViewModel에서 View로 전달
 
