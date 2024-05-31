@@ -11,12 +11,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MVI_Pattern"
+        android:theme="@style/Base.Theme.MVI_Pattern"
         tools:targetApi="31">
 
         <activity
-            android:name=".main.MviActivity"
-            android:exported="true">
+            android:name="org.now.sopt.mvi_pattern.main.MviActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Base.Theme.MVI_Pattern">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
